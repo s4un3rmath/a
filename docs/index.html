@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Clássico dos Blocos Caindo - Tetris Retrô</title>
+    <style>
+        /* Estilo Geral Retrô / Arcade */
+        body {
+            background-color: #12121c;
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            width: 100%;
+            max-width: 900px;
+            box-sizing: border-box;
+        }
+
+        /* Título emulando Pixel Art */
+        h1 {
+            color: #f7d070;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0 0 20px 0;
+            text-shadow: 3px 3px 0px #d93d59;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #cccccc;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        /* Botão Jogar Agora */
+        .btn-jogar {
+            display: inline-block;
+            background-color: #d93d59;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 15px 40px;
+            border: 4px solid #ffffff;
+            box-shadow: 5px 5px 0px #000000;
+            transition: transform 0.1s, box-shadow 0.1s;
+        }
+
+        .btn-jogar:hover {
+            transform: translate(2px, 2px);
+            box-shadow: 3px 3px 0px #000000;
+        }
+
+        /* Layout de Conteúdo e Imagens */
+        main {
+            width: 100%;
+            max-width: 1000px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .section-intro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 60px;
+            flex-wrap: wrap;
+        }
+
+        .intro-texto {
+            flex: 1;
+            min-width: 300px;
+            text-align: left;
+        }
+
+        .intro-texto h1 {
+            text-align: left;
+        }
+
+        /* Galeria de Capturas de Tela */
+        .gallery-title {
+            text-align: center;
+            color: #4da6ff;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+            border-bottom: 2px dashed #4da6ff;
+            padding-bottom: 10px;
+        }
+
+        .gameplay-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 60px;
+        }
+
+        /* Molduras das Imagens */
+        .img-wrapper {
+            background-color: #1a1a26;
+            border: 4px double #4da6ff;
+            padding: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            max-width: 45%;
+            min-width: 300px;
+        }
+
+        .img-wrapper-banner {
+            background-color: #1a1a26;
+            border: 4px double #d93d59;
+            padding: 10px;
+            max-width: 400px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            width: 100%;
+            color: #666666;
+            font-size: 0.9rem;
+            border-top: 1px solid #222233;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="section-intro">
+            <div class="intro-texto">
+                <h1>Tetris</h1>
+                <p>Tetris é um dos jogos eletrônicos mais populares, influentes e vendidos de toda a história, acumulando mais de 520 milhões de cópias comercializadas mundialmente</p>
+            
+            </div>
+            <div class="img-wrapper-banner">
+                <img src="image_CRlSwo.png" alt="Banner O Clássico dos Blocos Caindo">
+            </div>
+        </section>
+
+        <!-- Seção de Demonstração do Jogo -->
+        <section>
+            <p> um jogo gratuito clássico</p>
+            <h2 class="gallery-title">Imagens do Jogo</h2>
+            <p>um jogo simples com layout simples e indicativo, todas as regras e botões/teclas usadas para jogar estão indicadas, abaixo da tela principal do jogo tem intruções de como jogar</p>
+            <div class="gameplay-container">
+                <div class="img-wrapper">
+                    <!-- Captura de Tela 1: Gameplay em andamento (Nível 02) -->
+                    <img src="image_Gydl5J.png" alt="Tela de jogo mostrando pontuação e blocos empilhados">
+                </div>
+                <div class="img-wrapper">
+                    <!-- Captura de Tela 2: Bloco de linha descendo -->
+                    <img src="image_FrTjtA.png" alt="Tela de jogo mostrando bloco reto em queda">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Inspirado no clássico de 1984. Todos os direitos reservados aos respectivos criadores.
+        </p>
+    </footer>
+
+</body>
+</html>
